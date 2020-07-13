@@ -114,6 +114,8 @@ function changeTheme(z) {
     switch (z) {
       case 1:
         button[i].style.backgroundColor = "red";
+        button[i].style.color = "#fff";
+
         document.body.style.backgroundColor = "yellow";
         break;
       case 2:
